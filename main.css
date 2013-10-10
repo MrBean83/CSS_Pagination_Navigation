@@ -17,15 +17,45 @@ small.page_no {
 }
 
 .pagination {
+  float: left;
+  display: inline;
   background-color: #eee;
   margin: 10px 0px;
+  border: 1px solid gray;
+  border-right: none;
 }
 
 .pagination a {
+  padding: 7px;
+  float: left;
   color: #222;
+  text-decoration: none;
+  border-right: 1px solid gray;
+  text-decoration: underline;
+
+}
+
+.pagination a:hover {
+  background-color: #474747;
+  color: white;
   text-decoration: none;
 }
 
 .pagination a.disabled {
   color: #ccc;
+}
+
+ol {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float:left;
+  display:inline;
+}
+
+.footer {
+  clear: left;
 }
